@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;1,300&display=swap');
+
+.App {
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  background-image: url("./assets/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: work-sans;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.transparent-tab {
+  font-weight: bold;
+  border-bottom: 2px solid var(--bs-light);
+  background-color: var(--bs-light);
+  color: black;
+}
+
+.transparent-tab:hover {
+  background-color: var(--bs-light);
+  color: black;
+}
+
+.transparent-tab.active {
+  background-color: var(--bs-light);
+  color: black;
+}
